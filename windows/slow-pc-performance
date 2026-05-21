@@ -1,0 +1,174 @@
+# 🐢 Slow PC Performance Issue
+
+**Category:** Windows  
+**Difficulty:** L1  
+**Keywords:** Slow Computer, PC Performance, High CPU Usage, Windows Slow, System Lag
+
+---
+
+# 📌 Problem Description
+
+User reports that the computer is running slowly, applications take longer to open, and overall system performance is poor.
+
+---
+
+# ⚠️ Symptoms
+
+- System takes long time to boot
+- Applications opening slowly
+- Frequent system lag or freezing
+- High CPU or memory usage
+- Slow response while browsing or multitasking
+
+---
+
+# ❓ Possible Causes
+
+- Too many startup applications
+- Low available RAM
+- High CPU usage
+- Insufficient disk space
+- Malware or virus infection
+- Outdated system drivers
+- Background applications consuming resources
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Restart the Computer
+
+Restart system to clear temporary memory usage and background processes.
+
+---
+
+### Step 2: Check Task Manager Usage
+
+1. Press:
+
+```text
+Ctrl + Shift + Esc
+```
+
+2. Open:
+
+```text
+Task Manager
+```
+
+3. Check:
+- CPU usage
+- Memory usage
+- Disk usage
+
+Identify applications consuming high resources.
+
+---
+
+### Step 3: Disable Unnecessary Startup Programs
+
+1. Open:
+
+```text
+Task Manager → Startup
+```
+
+2. Disable unnecessary startup applications.
+
+Examples:
+- Unused software launchers
+- Background sync applications
+
+---
+
+### Step 4: Free Disk Space
+
+1. Open:
+
+```text
+This PC
+```
+
+2. Check available storage on C: drive
+
+Delete:
+- Temporary files
+- Unused downloads
+- Recycle Bin contents
+
+---
+
+### Step 5: Run Disk Cleanup
+
+1. Search:
+
+```text
+Disk Cleanup
+```
+
+2. Select system drive
+3. Remove temporary and unnecessary files
+
+---
+
+### Step 6: Scan for Malware or Viruses
+
+Run full system scan using:
+- Windows Security
+- Antivirus software
+
+Remove detected threats.
+
+---
+
+### Step 7: Update Windows and Drivers
+
+1. Open:
+
+```text
+Settings → Windows Update
+```
+
+2. Install pending updates.
+
+Update important drivers:
+- Graphics driver
+- Chipset driver
+- Storage driver
+
+---
+
+### Step 8: Check RAM Usage
+
+Verify whether available RAM is sufficient for running applications.
+
+If memory usage remains high:
+- Close unnecessary applications
+- Consider RAM upgrade
+
+---
+
+# ✅ Resolution
+
+System performance improved after disabling startup programs, cleaning temporary files, and updating system drivers.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- System freezes continuously
+- Hardware failure suspected
+- Disk errors detected
+- Blue screen errors appear
+- Malware infection cannot be removed
+- RAM or SSD replacement required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep sufficient free disk space
+- Avoid installing unnecessary software
+- Restart system regularly
+- Keep Windows and drivers updated
+- Perform regular antivirus scans
