@@ -1,0 +1,141 @@
+# 💽 Disk Usage Check Issue
+
+**Category:** Linux  
+**Difficulty:** L1  
+**Keywords:** Disk Usage, Storage Check, Linux Disk Space, df Command, Storage Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User reports low disk space or system performance issues caused by high storage usage in Linux system.
+
+---
+
+# ⚠️ Symptoms
+
+- “No space left on device” error
+- Applications unable to save files
+- Slow system performance
+- System updates failing
+- Large log files consuming storage
+
+---
+
+# ❓ Possible Causes
+
+- Disk partition full
+- Large unnecessary files
+- Log files consuming storage
+- Old backups not removed
+- Application cache buildup
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Check Disk Usage
+
+Open terminal and run:
+
+```bash
+df -h
+```
+
+This displays:
+- Total disk space
+- Used space
+- Available space
+
+---
+
+### Step 2: Identify Large Directories
+
+Run:
+
+```bash
+du -sh /*
+```
+
+This helps identify directories consuming high storage.
+
+---
+
+### Step 3: Check Home Directory Usage
+
+Run:
+
+```bash
+du -sh /home/*
+```
+
+Identify large user folders or files.
+
+---
+
+### Step 4: Clear Temporary Files
+
+Remove unnecessary temporary files:
+
+```bash
+sudo rm -rf /tmp/*
+```
+
+---
+
+### Step 5: Clean Package Cache
+
+For Ubuntu/Debian systems:
+
+```bash
+sudo apt clean
+```
+
+This removes downloaded package cache.
+
+---
+
+### Step 6: Remove Unused Files
+
+Delete:
+- Old downloads
+- Unnecessary backups
+- Unused log files
+
+---
+
+### Step 7: Verify Available Space Again
+
+Run:
+
+```bash
+df -h
+```
+
+Confirm free space has increased.
+
+---
+
+# ✅ Resolution
+
+Disk space issue resolved successfully after clearing temporary files and removing unnecessary data.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Disk usage increases abnormally
+- Storage hardware failure suspected
+- Critical system partition full
+- RAID/storage configuration issue identified
+- Data recovery required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Monitor disk usage regularly
+- Remove unnecessary files periodically
+- Clean package cache frequently
+- Maintain backup management practices
+- Configure log rotation properly
