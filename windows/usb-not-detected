@@ -1,0 +1,179 @@
+# 🔌 USB Not Detected Issue
+
+**Category:** Windows  
+**Difficulty:** L1  
+**Keywords:** USB Not Detected, USB Device Error, External Drive Issue, USB Troubleshooting, Device Manager
+
+---
+
+# 📌 Problem Description
+
+User connects a USB device to the computer, but the system does not recognize or detect the device.
+
+---
+
+# ⚠️ Symptoms
+
+- USB device not appearing in File Explorer
+- “USB Device Not Recognized” error message
+- External drive not showing
+- USB device repeatedly disconnecting
+- No response after connecting USB device
+
+---
+
+# ❓ Possible Causes
+
+- Faulty USB port
+- Damaged USB device
+- Outdated or corrupted USB drivers
+- Power management issue
+- File system corruption
+- Hardware malfunction
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Reconnect the USB Device
+
+1. Remove USB device safely
+2. Wait for a few seconds
+3. Reconnect the device properly
+
+---
+
+### Step 2: Try Another USB Port
+
+Connect the USB device to:
+- Different USB port
+- USB 2.0 or USB 3.0 port
+
+Check whether device is detected.
+
+---
+
+### Step 3: Test USB Device on Another Computer
+
+Verify whether USB device works on another system.
+
+This helps identify:
+- Device issue
+- Computer issue
+
+---
+
+### Step 4: Restart the Computer
+
+Restart system and reconnect USB device.
+
+---
+
+### Step 5: Check Device Manager
+
+1. Press:
+
+```text
+Windows + X
+```
+
+2. Open:
+
+```text
+Device Manager
+```
+
+3. Expand:
+
+```text
+Universal Serial Bus Controllers
+```
+
+4. Look for:
+- Yellow warning icons
+- Unknown USB devices
+
+---
+
+### Step 6: Update or Reinstall USB Drivers
+
+1. Right-click USB device
+2. Select:
+
+```text
+Update Driver
+```
+
+If issue continues:
+- Uninstall device
+- Restart computer
+- Windows will reinstall drivers automatically
+
+---
+
+### Step 7: Disable USB Power Saving
+
+1. Open:
+
+```text
+Device Manager
+```
+
+2. Open USB Root Hub properties
+3. Go to:
+
+```text
+Power Management
+```
+
+4. Uncheck:
+
+```text
+Allow the computer to turn off this device to save power
+```
+
+---
+
+### Step 8: Check Disk Management
+
+1. Press:
+
+```text
+Windows + X
+```
+
+2. Open:
+
+```text
+Disk Management
+```
+
+3. Verify whether USB drive appears without drive letter
+
+Assign new drive letter if necessary.
+
+---
+
+# ✅ Resolution
+
+USB device detected successfully after reinstalling USB drivers and reconnecting device.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- USB ports physically damaged
+- Device not detected on multiple systems
+- Hardware failure suspected
+- BIOS-level USB issue identified
+- Data recovery required from damaged USB device
+
+---
+
+# 🛡️ Prevention Tips
+
+- Safely eject USB devices before removal
+- Avoid using damaged USB ports
+- Keep device drivers updated
+- Protect USB devices from physical damage
+- Avoid connecting unsupported devices
