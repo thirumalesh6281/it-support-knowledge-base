@@ -1,0 +1,144 @@
+# 🌐 DNS Troubleshooting Issue
+
+**Category:** Networking  
+**Difficulty:** L1  
+**Keywords:** DNS Issue, DNS Flush, Website Not Loading, Internet Problem, Network Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User is connected to the internet but unable to access websites due to DNS resolution problems.
+
+---
+
+# ⚠️ Symptoms
+
+- Websites not loading
+- “DNS Server Not Responding” message
+- Browser showing server not found error
+- Slow website loading
+- Internet connected but webpages inaccessible
+
+---
+
+# ❓ Possible Causes
+
+- Corrupted DNS cache
+- Incorrect DNS server settings
+- ISP DNS outage
+- Network configuration issue
+- Router DNS problem
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Verify Internet Connection
+
+Check whether internet is working on:
+- Another website
+- Another device
+
+This helps identify whether issue is DNS-specific.
+
+---
+
+### Step 2: Restart Router and Computer
+
+1. Restart router/modem
+2. Restart computer
+3. Reconnect to network
+
+---
+
+### Step 3: Flush DNS Cache
+
+Open Command Prompt as Administrator and run:
+
+```bash
+ipconfig /flushdns
+```
+
+This clears corrupted DNS cache entries.
+
+---
+
+### Step 4: Renew IP Address
+
+Run the following commands:
+
+```bash
+ipconfig /release
+ipconfig /renew
+```
+
+---
+
+### Step 5: Change DNS Server Settings
+
+1. Open:
+
+```text
+Control Panel → Network and Sharing Center
+```
+
+2. Open active network adapter properties
+3. Select:
+
+```text
+Internet Protocol Version 4 (TCP/IPv4)
+```
+
+4. Configure public DNS servers:
+
+```text
+Preferred DNS: 8.8.8.8
+Alternate DNS: 8.8.4.4
+```
+
+---
+
+### Step 6: Disable and Re-enable Network Adapter
+
+1. Open:
+
+```text
+Network Connections
+```
+
+2. Disable network adapter
+3. Wait few seconds
+4. Re-enable adapter
+
+---
+
+### Step 7: Test Website Access
+
+Open browser and verify website loading functionality.
+
+---
+
+# ✅ Resolution
+
+DNS issue resolved successfully after flushing DNS cache and updating DNS server settings.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- DNS issue affects multiple devices
+- Corporate DNS server inaccessible
+- ISP DNS outage suspected
+- Router configuration issue detected
+- Network-wide connectivity problem identified
+
+---
+
+# 🛡️ Prevention Tips
+
+- Use reliable DNS servers
+- Restart router periodically
+- Keep network drivers updated
+- Avoid incorrect manual network configuration
+- Maintain stable internet connection
