@@ -1,0 +1,149 @@
+# 📊 Linux Process Monitoring Issue
+
+**Category:** Linux  
+**Difficulty:** L1  
+**Keywords:** Process Monitoring, Linux Processes, top Command, System Monitoring, CPU Usage
+
+---
+
+# 📌 Problem Description
+
+User reports slow system performance or application issues caused by high CPU or memory usage from running processes in Linux system.
+
+---
+
+# ⚠️ Symptoms
+
+- System running slowly
+- High CPU usage
+- High memory consumption
+- Applications freezing
+- Server becoming unresponsive
+
+---
+
+# ❓ Possible Causes
+
+- Excessive background processes
+- Application consuming high resources
+- Infinite loop or stuck process
+- Malware or unauthorized process
+- Insufficient system resources
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Check Running Processes
+
+Open terminal and run:
+
+```bash
+ps -aux
+```
+
+This displays all active running processes.
+
+---
+
+### Step 2: Monitor System Resource Usage
+
+Run:
+
+```bash
+top
+```
+
+Check:
+- CPU usage
+- Memory usage
+- Active processes
+
+---
+
+### Step 3: Identify High Resource Processes
+
+Look for:
+- High CPU %
+- High memory usage
+- Suspicious or stuck processes
+
+Note process ID (PID).
+
+---
+
+### Step 4: Use htop (if installed)
+
+Run:
+
+```bash
+htop
+```
+
+This provides interactive process monitoring.
+
+---
+
+### Step 5: Terminate Problematic Process
+
+Stop process using:
+
+```bash
+kill PID
+```
+
+Replace:
+- `PID`
+
+with actual process ID.
+
+Example:
+
+```bash
+kill 1234
+```
+
+---
+
+### Step 6: Force Kill Process (if required)
+
+If process does not stop:
+
+```bash
+kill -9 PID
+```
+
+---
+
+### Step 7: Verify System Performance
+
+Check whether:
+- CPU usage normalized
+- Memory usage reduced
+- System responsiveness improved
+
+---
+
+# ✅ Resolution
+
+System performance restored successfully after identifying and terminating high resource-consuming process.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Critical system process consuming resources
+- Repeated abnormal process activity detected
+- Malware infection suspected
+- Server instability continues
+- Kernel-level issue identified
+
+---
+
+# 🛡️ Prevention Tips
+
+- Monitor system resources regularly
+- Keep applications updated
+- Remove unnecessary background services
+- Configure proper resource limits
+- Perform regular security scans
