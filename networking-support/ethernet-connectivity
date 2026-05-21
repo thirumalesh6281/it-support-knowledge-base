@@ -1,0 +1,167 @@
+# 🔌 Ethernet Connectivity Issue
+
+**Category:** Networking  
+**Difficulty:** L1  
+**Keywords:** Ethernet Issue, LAN Connection, Wired Network, Network Cable, Connectivity Problem
+
+---
+
+# 📌 Problem Description
+
+User is unable to access network or internet using Ethernet cable connection on the computer.
+
+---
+
+# ⚠️ Symptoms
+
+- No internet access through Ethernet
+- “Network Cable Unplugged” message
+- Ethernet adapter not detected
+- Limited or no connectivity
+- Slow or unstable wired connection
+
+---
+
+# ❓ Possible Causes
+
+- Loose or damaged Ethernet cable
+- Faulty LAN port
+- Disabled network adapter
+- Corrupted network drivers
+- Router or switch issue
+- Incorrect network configuration
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Check Ethernet Cable Connection
+
+Verify:
+- Ethernet cable connected securely
+- Cable not physically damaged
+- Router/switch port active
+
+---
+
+### Step 2: Try Different Ethernet Port
+
+Connect cable to:
+- Different router port
+- Different switch port
+- Another computer if available
+
+---
+
+### Step 3: Restart Router and Computer
+
+1. Restart router/modem
+2. Restart computer
+3. Reconnect Ethernet cable
+
+---
+
+### Step 4: Verify Ethernet Adapter Status
+
+1. Open:
+
+```text
+Control Panel → Network and Sharing Center
+```
+
+2. Click:
+
+```text
+Change Adapter Settings
+```
+
+3. Ensure Ethernet adapter is:
+- Enabled
+- Active
+
+---
+
+### Step 5: Update Network Drivers
+
+1. Open:
+
+```text
+Device Manager
+```
+
+2. Expand:
+
+```text
+Network Adapters
+```
+
+3. Right-click Ethernet adapter
+4. Select:
+
+```text
+Update Driver
+```
+
+---
+
+### Step 6: Run Network Troubleshooter
+
+1. Open:
+
+```text
+Settings → Troubleshoot
+```
+
+2. Run:
+
+```text
+Network Adapter Troubleshooter
+```
+
+Apply recommended fixes.
+
+---
+
+### Step 7: Renew IP Address
+
+Open Command Prompt as Administrator and run:
+
+```bash
+ipconfig /release
+ipconfig /renew
+```
+
+---
+
+### Step 8: Test Internet Connectivity
+
+Verify:
+- Internet access
+- Stable connection
+- Network resource accessibility
+
+---
+
+# ✅ Resolution
+
+Ethernet connectivity restored successfully after replacing faulty cable and restarting network adapter.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- LAN port physically damaged
+- Router or switch hardware failure suspected
+- Ethernet adapter not detected in Device Manager
+- Enterprise network issue identified
+- Driver installation repeatedly fails
+
+---
+
+# 🛡️ Prevention Tips
+
+- Use quality Ethernet cables
+- Avoid bending or damaging cables
+- Keep network drivers updated
+- Maintain stable network infrastructure
+- Restart networking equipment periodically
