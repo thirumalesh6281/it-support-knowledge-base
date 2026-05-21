@@ -1,0 +1,143 @@
+# 🔄 Linux Service Restart Procedure
+
+**Category:** Linux  
+**Difficulty:** L1  
+**Keywords:** Linux Service Restart, systemctl, Service Management, Restart Service, Linux Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User reports that an application or service is not functioning properly and requires service restart in Linux system.
+
+---
+
+# ⚠️ Symptoms
+
+- Application not responding
+- Service unavailable
+- Website or server inaccessible
+- Background process stopped
+- System service failed to start
+
+---
+
+# ❓ Possible Causes
+
+- Service crash
+- Temporary system issue
+- High resource usage
+- Incorrect service configuration
+- Failed update or installation
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Verify Service Status
+
+Open terminal and run:
+
+```bash
+systemctl status service_name
+```
+
+Replace:
+- `service_name`
+
+with actual service name.
+
+Example:
+
+```bash
+systemctl status apache2
+```
+
+---
+
+### Step 2: Restart the Service
+
+Run:
+
+```bash
+sudo systemctl restart service_name
+```
+
+Example:
+
+```bash
+sudo systemctl restart nginx
+```
+
+---
+
+### Step 3: Verify Service Running Status
+
+Check whether service restarted successfully:
+
+```bash
+systemctl status service_name
+```
+
+Ensure status shows:
+
+```text
+active (running)
+```
+
+---
+
+### Step 4: Check Service Logs
+
+View recent service logs:
+
+```bash
+journalctl -u service_name
+```
+
+This helps identify errors during restart.
+
+---
+
+### Step 5: Enable Service at Startup
+
+If service disabled after reboot:
+
+```bash
+sudo systemctl enable service_name
+```
+
+---
+
+### Step 6: Verify Application Functionality
+
+Check:
+- Website accessibility
+- Application response
+- Service availability
+
+---
+
+# ✅ Resolution
+
+Service restored successfully after restarting service and verifying active status.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Service fails repeatedly
+- Configuration corruption detected
+- Dependency service unavailable
+- Critical application outage identified
+- Server resource issue suspected
+
+---
+
+# 🛡️ Prevention Tips
+
+- Monitor service logs regularly
+- Keep applications updated
+- Restart services after updates
+- Maintain proper server resource usage
+- Verify service configurations periodically
