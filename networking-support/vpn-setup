@@ -1,0 +1,149 @@
+# 🔐 VPN Setup Issue
+
+**Category:** Networking  
+**Difficulty:** L1  
+**Keywords:** VPN Setup, Remote Access, VPN Connection, Secure Network, VPN Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User is unable to configure or connect to VPN for secure remote access to office or organizational network resources.
+
+---
+
+# ⚠️ Symptoms
+
+- VPN connection failed
+- Authentication error displayed
+- Unable to access office network
+- VPN disconnecting frequently
+- Slow VPN connection
+- “Unable to connect to VPN server” message
+
+---
+
+# ❓ Possible Causes
+
+- Incorrect VPN credentials
+- No internet connection
+- Wrong VPN server address
+- Firewall or antivirus blocking VPN
+- Outdated VPN client software
+- VPN server issue
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Verify Internet Connection
+
+Ensure internet is working properly before attempting VPN connection.
+
+Test by opening websites or running network diagnostics.
+
+---
+
+### Step 2: Verify VPN Credentials
+
+Check:
+- Username
+- Password
+- VPN server address
+
+Ensure details are entered correctly.
+
+---
+
+### Step 3: Configure VPN Connection
+
+1. Open:
+
+```text
+Settings → Network & Internet → VPN
+```
+
+2. Click:
+
+```text
+Add a VPN Connection
+```
+
+3. Enter:
+- VPN provider
+- Connection name
+- Server address
+- VPN type
+- Username and password
+
+4. Save configuration.
+
+---
+
+### Step 4: Connect to VPN
+
+1. Select configured VPN connection
+2. Click:
+
+```text
+Connect
+```
+
+3. Verify successful connection.
+
+---
+
+### Step 5: Restart VPN Client
+
+Close VPN application completely and reopen it.
+
+Retry connection.
+
+---
+
+### Step 6: Disable Firewall Temporarily
+
+Temporarily disable:
+- Windows Firewall
+- Antivirus firewall protection
+
+Check whether VPN connects successfully.
+
+---
+
+### Step 7: Update VPN Client Software
+
+Install latest version of VPN application or client software.
+
+---
+
+### Step 8: Restart the Computer
+
+Restart system and attempt VPN connection again.
+
+---
+
+# ✅ Resolution
+
+VPN connection established successfully after correcting VPN configuration and verifying credentials.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- VPN server unreachable
+- Authentication server issue detected
+- VPN disconnects repeatedly
+- Corporate firewall restrictions identified
+- VPN account access denied
+- Advanced network configuration required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Use updated VPN software
+- Keep VPN credentials secure
+- Maintain stable internet connection
+- Avoid public unsecured Wi-Fi
+- Regularly update system and network drivers
