@@ -1,0 +1,126 @@
+# 🌐 Google Chrome Crashing Issue
+
+**Category:** Software/Application Support  
+**Difficulty:** L1  
+**Keywords:** Chrome Crash, Browser Issue, Google Chrome, Application Crash, Browser Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User reports that Google Chrome closes unexpectedly, freezes, or crashes while browsing websites.
+
+---
+
+# ⚠️ Symptoms
+
+- Chrome closing automatically
+- Browser freezing or not responding
+- Tabs crashing frequently
+- “Aw, Snap!” error message
+- Slow browser performance
+
+---
+
+# ❓ Possible Causes
+
+- Corrupted browser cache
+- Too many extensions
+- Outdated Chrome version
+- Low system memory
+- Malware or harmful extensions
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Restart Google Chrome
+
+Close Chrome completely and reopen browser.
+
+---
+
+### Step 2: Restart the Computer
+
+Restart system and relaunch Chrome.
+
+---
+
+### Step 3: Clear Browser Cache
+
+1. Open Chrome
+2. Go to:
+
+```text
+Settings → Privacy and Security → Clear Browsing Data
+```
+
+3. Remove:
+- Cache
+- Cookies
+- Temporary data
+
+---
+
+### Step 4: Disable Extensions
+
+1. Open:
+
+```text
+chrome://extensions
+```
+
+2. Disable unnecessary extensions
+3. Restart Chrome
+
+---
+
+### Step 5: Update Google Chrome
+
+1. Open:
+
+```text
+Settings → About Chrome
+```
+
+2. Install latest updates.
+
+---
+
+### Step 6: Run Chrome in Incognito Mode
+
+Check whether issue occurs without extensions enabled.
+
+---
+
+### Step 7: Reinstall Google Chrome
+
+1. Uninstall Chrome
+2. Download latest version
+3. Reinstall browser
+
+---
+
+# ✅ Resolution
+
+Chrome crashing issue resolved successfully after clearing cache and disabling problematic extensions.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Browser crashes continue repeatedly
+- System-wide application crashes detected
+- Malware infection suspected
+- User profile corruption identified
+- Application compatibility issue persists
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep Chrome updated
+- Avoid installing unknown extensions
+- Clear cache periodically
+- Maintain sufficient system memory
+- Perform regular antivirus scans
