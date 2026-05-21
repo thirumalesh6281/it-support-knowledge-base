@@ -1,0 +1,172 @@
+# 👤 User Profile Login Issue
+
+**Category:** Windows  
+**Difficulty:** L1  
+**Keywords:** User Profile Error, Login Problem, Profile Corruption, Windows Login, Temporary Profile
+
+---
+
+# 📌 Problem Description
+
+User is unable to log in properly to their Windows account or receives a temporary profile after login.
+
+---
+
+# ⚠️ Symptoms
+
+- “User Profile Service failed the sign-in” message
+- Temporary profile loaded after login
+- Missing desktop files and settings
+- User unable to access personal data
+- Login taking unusually long time
+
+---
+
+# ❓ Possible Causes
+
+- Corrupted user profile
+- Damaged system files
+- Improper shutdown
+- Disk errors
+- Antivirus interference
+- Windows update issue
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Restart the Computer
+
+Restart system and attempt login again.
+
+---
+
+### Step 2: Verify User Credentials
+
+Ensure:
+- Correct username entered
+- Correct password entered
+- Keyboard layout correct
+
+---
+
+### Step 3: Check Disk Space
+
+1. Open:
+
+```text
+This PC
+```
+
+2. Verify sufficient free space available on C: drive.
+
+Low storage can affect profile loading.
+
+---
+
+### Step 4: Boot into Safe Mode
+
+1. Restart computer
+2. Open:
+
+```text
+Advanced Startup Options
+```
+
+3. Select:
+
+```text
+Safe Mode
+```
+
+Check whether user profile loads successfully.
+
+---
+
+### Step 5: Run System File Checker
+
+Open Command Prompt as Administrator and run:
+
+```bash
+sfc /scannow
+```
+
+Wait for scan completion and restart system.
+
+---
+
+### Step 6: Check User Profile Service
+
+1. Press:
+
+```text
+Windows + R
+```
+
+2. Type:
+
+```text
+services.msc
+```
+
+3. Verify:
+
+```text
+User Profile Service
+```
+
+Ensure service is running.
+
+---
+
+### Step 7: Create New User Profile
+
+If profile remains corrupted:
+
+1. Log in using administrator account
+2. Open:
+
+```text
+Settings → Accounts → Family & Other Users
+```
+
+3. Create new local user account
+4. Transfer required user files if needed
+
+---
+
+### Step 8: Check Disk Errors
+
+Open Command Prompt as Administrator and run:
+
+```bash
+chkdsk /f
+```
+
+Restart system if prompted.
+
+---
+
+# ✅ Resolution
+
+User successfully logged in after repairing corrupted profile and creating a new user account.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Domain profile issue suspected
+- Active Directory synchronization issue detected
+- Profile corruption repeatedly occurs
+- System unable to load any user profiles
+- OS reinstallation required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Avoid improper shutdowns
+- Maintain sufficient disk space
+- Perform regular system updates
+- Backup important user data
+- Use antivirus protection regularly
