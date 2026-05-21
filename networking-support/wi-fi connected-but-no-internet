@@ -1,0 +1,159 @@
+# 📶 Wi-Fi Connected but No Internet Issue
+
+**Category:** Networking  
+**Difficulty:** L1  
+**Keywords:** Wi-Fi Issue, No Internet, Network Troubleshooting, DNS Problem, Internet Connectivity
+
+---
+
+# 📌 Problem Description
+
+User is connected to Wi-Fi network but unable to access internet websites or online applications.
+
+---
+
+# ⚠️ Symptoms
+
+- Websites not loading
+- “No Internet Access” message
+- Limited connectivity warning
+- Applications unable to connect online
+- Wi-Fi connected symbol visible but internet unavailable
+
+---
+
+# ❓ Possible Causes
+
+- Router or modem issue
+- ISP outage
+- DNS problem
+- IP address conflict
+- Weak Wi-Fi signal
+- Network adapter malfunction
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Check Other Devices
+
+Verify whether internet works on:
+- Mobile phone
+- Another laptop
+- Other connected devices
+
+This helps identify:
+- Router issue
+- Device-specific issue
+
+---
+
+### Step 2: Restart Router and Modem
+
+1. Turn off router and modem
+2. Wait for 30 seconds
+3. Power devices back on
+4. Reconnect to Wi-Fi
+
+---
+
+### Step 3: Restart the Computer
+
+Restart system and reconnect Wi-Fi network.
+
+---
+
+### Step 4: Forget and Reconnect Wi-Fi
+
+1. Open:
+
+```text
+Settings → Wi-Fi
+```
+
+2. Select current network
+3. Click:
+
+```text
+Forget Network
+```
+
+4. Reconnect using correct password
+
+---
+
+### Step 5: Run Network Troubleshooter
+
+1. Open:
+
+```text
+Settings → Troubleshoot
+```
+
+2. Select:
+
+```text
+Internet Connections
+```
+
+3. Run troubleshooter.
+
+---
+
+### Step 6: Flush DNS Cache
+
+Open Command Prompt as Administrator and run:
+
+```bash
+ipconfig /flushdns
+```
+
+---
+
+### Step 7: Renew IP Address
+
+Run the following commands:
+
+```bash
+ipconfig /release
+ipconfig /renew
+```
+
+---
+
+### Step 8: Restart Network Adapter
+
+1. Open:
+
+```text
+Control Panel → Network and Sharing Center
+```
+
+2. Disable Wi-Fi adapter
+3. Re-enable adapter after few seconds
+
+---
+
+# ✅ Resolution
+
+Internet access restored successfully after restarting router and renewing IP configuration.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Internet unavailable on all devices
+- Router hardware failure suspected
+- ISP outage confirmed
+- Network adapter not detected
+- Issue persists after troubleshooting
+
+---
+
+# 🛡️ Prevention Tips
+
+- Restart router periodically
+- Keep network drivers updated
+- Maintain stable signal strength
+- Avoid IP conflicts on network
+- Secure Wi-Fi with strong password
