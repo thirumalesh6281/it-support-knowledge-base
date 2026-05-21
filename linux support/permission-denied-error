@@ -1,0 +1,149 @@
+# 🚫 Permission Denied Error Issue
+
+**Category:** Linux  
+**Difficulty:** L1  
+**Keywords:** Permission Denied, Linux Permissions, Access Error, chmod, File Access
+
+---
+
+# 📌 Problem Description
+
+User receives a “Permission Denied” error while accessing, modifying, or executing files and directories in Linux system.
+
+---
+
+# ⚠️ Symptoms
+
+- “Permission denied” message displayed
+- Unable to open or edit files
+- Script not executing
+- Access restricted to folders
+- Command execution failure
+
+---
+
+# ❓ Possible Causes
+
+- Insufficient user permissions
+- Incorrect file ownership
+- Missing execute permission
+- Restricted directory access
+- Running command without sudo privileges
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Verify Current User
+
+Open terminal and run:
+
+```bash
+whoami
+```
+
+Confirm logged-in user account.
+
+---
+
+### Step 2: Check File Permissions
+
+Run:
+
+```bash
+ls -l
+```
+
+This displays:
+- Read permissions
+- Write permissions
+- Execute permissions
+- File ownership
+
+---
+
+### Step 3: Add Execute Permission (if required)
+
+For executable scripts or files:
+
+```bash
+chmod +x filename
+```
+
+---
+
+### Step 4: Change File Permissions
+
+Grant required permissions using:
+
+```bash
+chmod 755 filename
+```
+
+Example:
+- Owner → Read, Write, Execute
+- Others → Read, Execute
+
+---
+
+### Step 5: Change File Ownership
+
+If ownership issue detected:
+
+```bash
+sudo chown username:username filename
+```
+
+Replace:
+- `username`
+- `filename`
+
+with appropriate values.
+
+---
+
+### Step 6: Use sudo Privileges
+
+If administrative access required:
+
+```bash
+sudo command_name
+```
+
+Example:
+
+```bash
+sudo apt update
+```
+
+---
+
+### Step 7: Verify Access
+
+Retry file access or command execution after permission changes.
+
+---
+
+# ✅ Resolution
+
+Permission denied issue resolved successfully after updating file permissions and ownership.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Critical system file permissions corrupted
+- SELinux/AppArmor restriction identified
+- Root account issue detected
+- Multiple permission errors across system
+- Security policy changes required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Use correct user permissions
+- Avoid unnecessary root access
+- Review permissions before executing scripts
+- Maintain proper file ownership
+- Follow Linux security best practices
