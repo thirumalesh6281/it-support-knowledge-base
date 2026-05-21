@@ -1,0 +1,131 @@
+# 🎤 Microsoft Teams Microphone Issue
+
+**Category:** Software/Application Support  
+**Difficulty:** L1  
+**Keywords:** Teams Mic Issue, Microphone Not Working, Audio Problem, Microsoft Teams, Meeting Audio
+
+---
+
+# 📌 Problem Description
+
+User is unable to use microphone during Microsoft Teams calls or meetings.
+
+---
+
+# ⚠️ Symptoms
+
+- Others unable to hear user
+- Microphone muted automatically
+- No audio input detected
+- Teams showing microphone error
+- Voice breaking or distorted
+
+---
+
+# ❓ Possible Causes
+
+- Microphone muted
+- Incorrect input device selected
+- Teams permission issue
+- Outdated audio drivers
+- Hardware malfunction
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Verify Microphone Connection
+
+Check:
+- Headset connected properly
+- USB microphone detected
+- Wireless headset battery charged
+
+---
+
+### Step 2: Check Teams Microphone Settings
+
+1. Open Teams
+2. Go to:
+
+```text
+Settings → Devices
+```
+
+3. Select correct microphone device.
+
+---
+
+### Step 3: Check Windows Microphone Permissions
+
+1. Open:
+
+```text
+Settings → Privacy → Microphone
+```
+
+2. Ensure:
+- Microphone access enabled
+- Teams allowed to use microphone
+
+---
+
+### Step 4: Test Microphone
+
+Use:
+
+```text
+Sound Settings → Input Device Test
+```
+
+Verify microphone detects voice input.
+
+---
+
+### Step 5: Restart Teams Application
+
+Close Microsoft Teams completely and reopen application.
+
+---
+
+### Step 6: Update Audio Drivers
+
+1. Open:
+
+```text
+Device Manager
+```
+
+2. Update:
+- Audio drivers
+- Microphone drivers
+
+---
+
+### Step 7: Restart the Computer
+
+Restart system and test Teams call again.
+
+---
+
+# ✅ Resolution
+
+Microphone issue resolved successfully after selecting correct input device and updating audio drivers.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Microphone hardware failure suspected
+- Audio driver repeatedly failing
+- Teams application corruption detected
+- Enterprise Teams policy issue identified
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep Teams updated
+- Verify microphone permissions regularly
+- Use compatible audio devices
+- Maintain updated audio drivers
