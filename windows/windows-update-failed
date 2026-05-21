@@ -1,0 +1,165 @@
+# 🔄 Windows Update Failed Issue
+
+**Category:** Windows  
+**Difficulty:** L1  
+**Keywords:** Windows Update, Update Failure, System Update, Update Error, Windows Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User is unable to install Windows updates successfully. Updates may fail during download, installation, or restart process.
+
+---
+
+# ⚠️ Symptoms
+
+- Windows update stuck at certain percentage
+- “Update Failed” error message displayed
+- System repeatedly restarting during update
+- Pending updates not installing
+- Error codes shown during update process
+
+---
+
+# ❓ Possible Causes
+
+- Poor internet connection
+- Corrupted update files
+- Insufficient disk space
+- Windows Update service issue
+- Antivirus software interference
+- System file corruption
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Check Internet Connection
+
+Verify system has stable internet access.
+
+Test by opening websites or running network diagnostics.
+
+---
+
+### Step 2: Restart the Computer
+
+Restart system and retry Windows update process.
+
+---
+
+### Step 3: Check Available Disk Space
+
+1. Open:
+
+```text
+This PC
+```
+
+2. Verify sufficient free space available on system drive (C:)
+
+Recommended:
+- Minimum 10 GB free space
+
+---
+
+### Step 4: Run Windows Update Troubleshooter
+
+1. Open:
+
+```text
+Settings → Update & Security → Troubleshoot
+```
+
+2. Select:
+
+```text
+Windows Update
+```
+
+3. Run troubleshooter and apply fixes.
+
+---
+
+### Step 5: Restart Windows Update Services
+
+1. Press:
+
+```text
+Windows + R
+```
+
+2. Type:
+
+```text
+services.msc
+```
+
+3. Restart these services:
+- Windows Update
+- Background Intelligent Transfer Service (BITS)
+
+---
+
+### Step 6: Clear SoftwareDistribution Folder
+
+1. Stop Windows Update service
+2. Navigate to:
+
+```text
+C:\Windows\SoftwareDistribution
+```
+
+3. Delete temporary update files
+4. Restart Windows Update service
+
+---
+
+### Step 7: Run System File Checker
+
+Open Command Prompt as Administrator and run:
+
+```bash
+sfc /scannow
+```
+
+Wait for scan completion and restart system.
+
+---
+
+### Step 8: Retry Windows Update
+
+Go to:
+
+```text
+Settings → Windows Update
+```
+
+Check for updates again.
+
+---
+
+# ✅ Resolution
+
+Windows updates installed successfully after clearing update cache and restarting update services.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Update errors continue after troubleshooting
+- System files remain corrupted
+- Blue screen appears during updates
+- Multiple update services fail repeatedly
+- OS reinstallation required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep sufficient disk space available
+- Maintain stable internet connection
+- Restart system regularly
+- Install updates periodically
+- Avoid interrupting update process
