@@ -1,0 +1,155 @@
+# ⚠️ IP Conflict Resolution Issue
+
+**Category:** Networking  
+**Difficulty:** L1  
+**Keywords:** IP Conflict, Duplicate IP Address, Network Error, DHCP Issue, Connectivity Problem
+
+---
+
+# 📌 Problem Description
+
+User receives an IP address conflict error because two devices on the same network are assigned the same IP address.
+
+---
+
+# ⚠️ Symptoms
+
+- “Windows has detected an IP address conflict” message
+- Internet disconnecting frequently
+- Limited or no network access
+- Unable to connect to shared resources
+- Network connection unstable
+
+---
+
+# ❓ Possible Causes
+
+- Duplicate static IP assignment
+- DHCP server assigning duplicate IP
+- Incorrect manual network configuration
+- Router DHCP issue
+- Network device misconfiguration
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Restart the Computer
+
+Restart system and reconnect to network.
+
+This may automatically obtain a new IP address.
+
+---
+
+### Step 2: Restart Router or Modem
+
+1. Turn off router/modem
+2. Wait for 30 seconds
+3. Turn device back on
+
+Allow DHCP server to refresh IP assignments.
+
+---
+
+### Step 3: Release and Renew IP Address
+
+Open Command Prompt as Administrator and run:
+
+```bash
+ipconfig /release
+ipconfig /renew
+```
+
+This requests a new IP address from the DHCP server.
+
+---
+
+### Step 4: Check Current IP Configuration
+
+Run:
+
+```bash
+ipconfig
+```
+
+Verify:
+- IP address
+- Default gateway
+- Subnet mask
+
+---
+
+### Step 5: Configure Automatic IP Assignment
+
+1. Open:
+
+```text
+Control Panel → Network and Sharing Center
+```
+
+2. Click:
+
+```text
+Change Adapter Settings
+```
+
+3. Right-click active network adapter
+4. Select:
+
+```text
+Properties
+```
+
+5. Open:
+
+```text
+Internet Protocol Version 4 (TCP/IPv4)
+```
+
+6. Enable:
+- Obtain an IP address automatically
+- Obtain DNS server automatically
+
+---
+
+### Step 6: Disable and Re-enable Network Adapter
+
+1. Disable active network adapter
+2. Wait few seconds
+3. Re-enable network adapter
+
+---
+
+### Step 7: Verify Network Connectivity
+
+Check:
+- Internet access
+- Stable network connection
+- Access to shared resources
+
+---
+
+# ✅ Resolution
+
+IP conflict issue resolved successfully after renewing IP address and enabling automatic DHCP configuration.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- DHCP server malfunction suspected
+- Multiple devices affected on network
+- Static IP configuration required
+- Router configuration issue detected
+- Enterprise network conflict persists
+
+---
+
+# 🛡️ Prevention Tips
+
+- Avoid assigning duplicate static IP addresses
+- Use DHCP for automatic IP management
+- Monitor network configuration regularly
+- Restart networking devices periodically
+- Keep router firmware updated
