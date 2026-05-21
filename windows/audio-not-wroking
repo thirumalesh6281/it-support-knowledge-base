@@ -1,0 +1,182 @@
+# 🔊 Audio Not Working Issue
+
+**Category:** Windows  
+**Difficulty:** L1  
+**Keywords:** Audio Issue, Sound Not Working, No Sound, Speaker Problem, Windows Audio
+
+---
+
+# 📌 Problem Description
+
+User is unable to hear audio from speakers or headphones on the Windows system.
+
+---
+
+# ⚠️ Symptoms
+
+- No sound from speakers or headphones
+- Audio icon showing mute symbol
+- “No audio output device installed” message
+- Sound stopping unexpectedly
+- Low or distorted audio quality
+
+---
+
+# ❓ Possible Causes
+
+- Volume muted
+- Incorrect playback device selected
+- Outdated or corrupted audio drivers
+- Audio service stopped
+- Loose headphone or speaker connection
+- Hardware malfunction
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Check Volume Settings
+
+1. Click sound icon on taskbar
+2. Verify:
+- Volume is not muted
+- Audio level is increased
+
+---
+
+### Step 2: Verify Physical Connections
+
+Check:
+- Speaker power connection
+- Headphone jack connection
+- USB audio device connection
+
+Reconnect device if necessary.
+
+---
+
+### Step 3: Test Another Audio Device
+
+Try:
+- Different headphones
+- Different speakers
+
+This helps identify whether issue is with:
+- Computer
+- Audio device
+
+---
+
+### Step 4: Select Correct Playback Device
+
+1. Right-click sound icon
+2. Open:
+
+```text
+Sound Settings
+```
+
+3. Select correct output device.
+
+Examples:
+- Speakers
+- Headphones
+- HDMI audio
+
+---
+
+### Step 5: Restart Windows Audio Service
+
+1. Press:
+
+```text
+Windows + R
+```
+
+2. Type:
+
+```text
+services.msc
+```
+
+3. Find:
+
+```text
+Windows Audio
+```
+
+4. Right-click and select:
+- Restart
+
+---
+
+### Step 6: Run Audio Troubleshooter
+
+1. Open:
+
+```text
+Settings → Troubleshoot
+```
+
+2. Select:
+
+```text
+Playing Audio
+```
+
+3. Run troubleshooter.
+
+---
+
+### Step 7: Update or Reinstall Audio Drivers
+
+1. Open:
+
+```text
+Device Manager
+```
+
+2. Expand:
+
+```text
+Sound, video and game controllers
+```
+
+3. Update audio driver.
+
+If issue continues:
+- Uninstall driver
+- Restart computer
+- Reinstall latest driver
+
+---
+
+### Step 8: Restart the Computer
+
+Restart system and verify audio functionality.
+
+---
+
+# ✅ Resolution
+
+Audio restored successfully after restarting Windows Audio service and reinstalling audio drivers.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Audio hardware failure suspected
+- Sound card not detected
+- Driver installation repeatedly fails
+- Motherboard audio issue identified
+- Audio issue persists after troubleshooting
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep audio drivers updated
+- Avoid abrupt shutdowns
+- Protect audio ports from damage
+- Use compatible audio devices
+- Perform regular Windows updates
