@@ -1,0 +1,140 @@
+# 🖨️ Printer Offline Issue
+
+**Category:** Windows  
+**Difficulty:** L1  
+**Keywords:** Printer Offline, Printing Issue, Print Spooler, Printer Troubleshooting, Windows Printer
+
+---
+
+# 📌 Problem Description
+
+User is unable to print documents because the printer status shows as “Offline” in Windows.
+
+---
+
+# ⚠️ Symptoms
+
+- Printer displays “Offline” status
+- Print jobs stuck in queue
+- Documents not printing
+- Printer not responding
+- Error message while printing
+
+---
+
+# ❓ Possible Causes
+
+- Loose cable or network disconnection
+- Printer powered off
+- Print Spooler service stopped
+- Incorrect default printer selected
+- Outdated or corrupted printer driver
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Check Printer Power and Connections
+
+Verify:
+- Printer is powered on
+- USB cable connected properly
+- Network/Wi-Fi connection active
+
+---
+
+### Step 2: Restart the Printer
+
+1. Turn off the printer
+2. Wait for 30 seconds
+3. Turn printer back on
+
+---
+
+### Step 3: Verify Default Printer
+
+1. Open:
+
+```text
+Control Panel → Devices and Printers
+```
+
+2. Right-click correct printer
+3. Select:
+
+```text
+Set as Default Printer
+```
+
+---
+
+### Step 4: Clear Print Queue
+
+1. Open printer queue
+2. Cancel all pending print jobs
+3. Retry printing test page
+
+---
+
+### Step 5: Restart Print Spooler Service
+
+1. Press:
+
+```text
+Windows + R
+```
+
+2. Type:
+
+```text
+services.msc
+```
+
+3. Find:
+
+```text
+Print Spooler
+```
+
+4. Right-click and select:
+- Restart
+
+---
+
+### Step 6: Reinstall or Update Printer Driver
+
+1. Remove existing printer
+2. Download latest driver from manufacturer website
+3. Reinstall printer driver
+4. Add printer again
+
+---
+
+### Step 7: Print Test Page
+
+Verify printer functionality by printing a test document.
+
+---
+
+# ✅ Resolution
+
+Printer connection restored after restarting Print Spooler service and reconnecting printer.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Printer hardware failure suspected
+- Driver installation repeatedly fails
+- Network printer inaccessible
+- Print Spooler service continuously crashes
+- Printer remains offline after troubleshooting
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep printer drivers updated
+- Maintain stable network connection
+- Restart printer periodically
+- Avoid excessive pending print jobs
