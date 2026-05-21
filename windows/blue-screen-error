@@ -1,0 +1,175 @@
+# 🔵 Blue Screen Error Issue
+
+**Category:** Windows  
+**Difficulty:** L1  
+**Keywords:** Blue Screen Error, BSOD, System Crash, Windows Crash, Stop Error
+
+---
+
+# 📌 Problem Description
+
+User experiences a Blue Screen of Death (BSOD) where the system crashes unexpectedly and restarts automatically.
+
+---
+
+# ⚠️ Symptoms
+
+- Blue screen with error message displayed
+- System suddenly restarting
+- “Your PC ran into a problem” message
+- Frequent crashes during system usage
+- Windows unable to boot properly
+
+---
+
+# ❓ Possible Causes
+
+- Corrupted system files
+- Faulty RAM or hardware
+- Outdated or incompatible drivers
+- Windows update issues
+- Overheating system
+- Malware infection
+- Hard disk errors
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Note the Error Message
+
+Check and record:
+- Stop code
+- Error name
+
+Examples:
+- MEMORY_MANAGEMENT
+- CRITICAL_PROCESS_DIED
+- IRQL_NOT_LESS_OR_EQUAL
+
+---
+
+### Step 2: Restart the Computer
+
+Restart system and check whether issue occurs again.
+
+---
+
+### Step 3: Disconnect External Devices
+
+Remove unnecessary external devices:
+- USB drives
+- Printers
+- External hard disks
+
+Restart system after disconnecting devices.
+
+---
+
+### Step 4: Boot into Safe Mode
+
+1. Restart computer
+2. Enter:
+
+```text
+Advanced Startup Options
+```
+
+3. Select:
+
+```text
+Safe Mode
+```
+
+Check whether system runs normally in Safe Mode.
+
+---
+
+### Step 5: Update Drivers
+
+1. Open:
+
+```text
+Device Manager
+```
+
+2. Update important drivers:
+- Graphics driver
+- Network driver
+- Storage driver
+
+---
+
+### Step 6: Run System File Checker
+
+Open Command Prompt as Administrator and run:
+
+```bash
+sfc /scannow
+```
+
+Wait for scan completion.
+
+---
+
+### Step 7: Check Windows Updates
+
+1. Open:
+
+```text
+Settings → Windows Update
+```
+
+2. Install latest updates and restart system.
+
+---
+
+### Step 8: Run Memory Diagnostic Tool
+
+1. Search:
+
+```text
+Windows Memory Diagnostic
+```
+
+2. Restart and scan RAM for errors.
+
+---
+
+### Step 9: Check Disk Errors
+
+Open Command Prompt as Administrator and run:
+
+```bash
+chkdsk /f /r
+```
+
+Restart system if prompted.
+
+---
+
+# ✅ Resolution
+
+Blue screen issue resolved after updating drivers and repairing corrupted system files.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- BSOD occurs repeatedly after troubleshooting
+- Hardware failure suspected
+- System unable to boot
+- RAM or storage device errors detected
+- BIOS-related issue identified
+- OS reinstallation required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep drivers updated
+- Install Windows updates regularly
+- Avoid overheating system
+- Use trusted software only
+- Perform regular malware scans
+- Maintain sufficient disk space
