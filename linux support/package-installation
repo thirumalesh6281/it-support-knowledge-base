@@ -1,0 +1,157 @@
+# 📦 Package Installation Issue
+
+**Category:** Linux  
+**Difficulty:** L1  
+**Keywords:** Package Installation, apt Error, Linux Software Install, Dependency Issue, Repository Error
+
+---
+
+# 📌 Problem Description
+
+User is unable to install software packages in Linux system due to package manager errors or dependency issues.
+
+---
+
+# ⚠️ Symptoms
+
+- Package installation failed
+- “Unable to locate package” error
+- Dependency errors displayed
+- Repository connection failure
+- Permission denied during installation
+
+---
+
+# ❓ Possible Causes
+
+- Internet connectivity issue
+- Outdated package repository list
+- Missing package dependencies
+- Incorrect repository configuration
+- Insufficient user permissions
+- Corrupted package cache
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Verify Internet Connection
+
+Check whether internet is working properly.
+
+Test connectivity using:
+
+```bash
+ping google.com
+```
+
+---
+
+### Step 2: Update Package Repository
+
+For Ubuntu/Debian systems run:
+
+```bash
+sudo apt update
+```
+
+This refreshes package information.
+
+---
+
+### Step 3: Upgrade Existing Packages
+
+Run:
+
+```bash
+sudo apt upgrade
+```
+
+Install pending package updates.
+
+---
+
+### Step 4: Check Package Name
+
+Verify correct package name before installation.
+
+Example:
+
+```bash
+sudo apt install nginx
+```
+
+---
+
+### Step 5: Fix Broken Dependencies
+
+Run:
+
+```bash
+sudo apt --fix-broken install
+```
+
+This resolves dependency issues.
+
+---
+
+### Step 6: Clear Package Cache
+
+Run:
+
+```bash
+sudo apt clean
+```
+
+This removes corrupted or unnecessary package cache.
+
+---
+
+### Step 7: Retry Package Installation
+
+Attempt installation again:
+
+```bash
+sudo apt install package_name
+```
+
+Replace:
+- `package_name`
+
+with required package.
+
+---
+
+### Step 8: Verify Installation
+
+Check whether package installed successfully:
+
+```bash
+package_name --version
+```
+
+---
+
+# ✅ Resolution
+
+Package installation completed successfully after updating repositories and fixing dependency issues.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Repository server inaccessible
+- Persistent dependency conflicts detected
+- Package corruption issue identified
+- System package manager damaged
+- Manual repository configuration required
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep repositories updated regularly
+- Use trusted package sources only
+- Maintain stable internet connection
+- Avoid interrupting package installation
+- Perform regular system updates
