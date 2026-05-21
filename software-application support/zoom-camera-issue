@@ -1,0 +1,126 @@
+# 📷 Zoom Camera Issue
+
+**Category:** Software/Application Support  
+**Difficulty:** L1  
+**Keywords:** Zoom Camera Issue, Webcam Not Working, Video Call Problem, Camera Access, Zoom Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User is unable to use webcam or camera during Zoom meetings.
+
+---
+
+# ⚠️ Symptoms
+
+- Camera not detected in Zoom
+- Black screen during video call
+- “Cannot detect camera” message
+- Video freezing during meeting
+- Camera working in other apps but not Zoom
+
+---
+
+# ❓ Possible Causes
+
+- Camera permission disabled
+- Incorrect camera selected
+- Camera driver issue
+- Another application using webcam
+- Outdated Zoom application
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Verify Camera Connection
+
+Check:
+- Webcam connected properly
+- USB camera detected
+- Laptop camera enabled
+
+---
+
+### Step 2: Check Zoom Camera Settings
+
+1. Open Zoom
+2. Go to:
+
+```text
+Settings → Video
+```
+
+3. Select correct camera device.
+
+---
+
+### Step 3: Check Windows Camera Permissions
+
+1. Open:
+
+```text
+Settings → Privacy → Camera
+```
+
+2. Ensure:
+- Camera access enabled
+- Zoom allowed to use camera
+
+---
+
+### Step 4: Close Other Applications
+
+Close applications using camera:
+- Teams
+- Skype
+- Browser video calls
+
+---
+
+### Step 5: Update Camera Drivers
+
+1. Open:
+
+```text
+Device Manager
+```
+
+2. Update webcam drivers.
+
+---
+
+### Step 6: Update Zoom Application
+
+Install latest Zoom version.
+
+---
+
+### Step 7: Restart Computer
+
+Restart system and test Zoom meeting again.
+
+---
+
+# ✅ Resolution
+
+Zoom camera issue resolved successfully after enabling camera permissions and updating webcam drivers.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Webcam hardware failure suspected
+- Camera not detected in Device Manager
+- Driver installation repeatedly fails
+- Enterprise camera policy restriction identified
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep Zoom updated
+- Maintain updated webcam drivers
+- Verify camera permissions regularly
+- Avoid running multiple video applications simultaneously
