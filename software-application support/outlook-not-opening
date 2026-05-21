@@ -1,0 +1,132 @@
+# 📧 Outlook Not Opening Issue
+
+**Category:** Software/Application Support  
+**Difficulty:** L1  
+**Keywords:** Outlook Issue, Email Application, Outlook Crash, Microsoft Outlook, Mail Troubleshooting
+
+---
+
+# 📌 Problem Description
+
+User is unable to open Microsoft Outlook application or Outlook crashes during startup.
+
+---
+
+# ⚠️ Symptoms
+
+- Outlook not launching
+- Application freezing at startup
+- Outlook crashes immediately
+- “Cannot start Microsoft Outlook” error
+- Emails not loading
+
+---
+
+# ❓ Possible Causes
+
+- Corrupted Outlook profile
+- Faulty add-ins
+- Damaged PST/OST files
+- Outdated Outlook version
+- System resource issues
+
+---
+
+# 🔍 Troubleshooting Steps
+
+### Step 1: Restart the Computer
+
+Restart system and relaunch Outlook.
+
+---
+
+### Step 2: Open Outlook in Safe Mode
+
+Press:
+
+```text
+Windows + R
+```
+
+Run:
+
+```bash
+outlook.exe /safe
+```
+
+Check whether Outlook opens successfully.
+
+---
+
+### Step 3: Disable Outlook Add-ins
+
+1. Open:
+
+```text
+File → Options → Add-ins
+```
+
+2. Disable unnecessary add-ins
+3. Restart Outlook
+
+---
+
+### Step 4: Repair Outlook Data File
+
+Use Inbox Repair Tool:
+
+```text
+SCANPST.EXE
+```
+
+Repair corrupted PST/OST files.
+
+---
+
+### Step 5: Update Microsoft Office
+
+1. Open Office application
+2. Go to:
+
+```text
+File → Account → Update Options
+```
+
+3. Install updates.
+
+---
+
+### Step 6: Create New Outlook Profile
+
+1. Open:
+
+```text
+Control Panel → Mail
+```
+
+2. Create new Outlook profile
+3. Reconfigure email account
+
+---
+
+# ✅ Resolution
+
+Outlook opened successfully after disabling faulty add-ins and repairing Outlook profile.
+
+---
+
+# ⬆️ Escalate to L2 if
+
+- Mailbox corruption suspected
+- Exchange server connectivity issue
+- Outlook profile repeatedly corrupted
+- Office installation damaged
+
+---
+
+# 🛡️ Prevention Tips
+
+- Keep Outlook updated
+- Avoid unnecessary add-ins
+- Backup Outlook data files regularly
+- Maintain sufficient system storage
